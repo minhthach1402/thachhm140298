@@ -1,0 +1,40 @@
+.box__contrack-work {
+  width: 65%;
+  height: 683px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 135px 0px;
+}
+
+.box-title__contrack-work h3 {
+  padding-bottom: 60px;
+}
+
+.box-title__contrack-work span {
+  font-weight: 500;
+}
+
+.box-content__contrack-work {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 375px) {
+  .box__contrack-work {
+    padding-top: 100px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .box-content__contrack-work {
+    flex-wrap: wrap;
+  }
+
+  .box-content__contrack-work>section {
+      width: 50%;
+      padding-bottom: 20px;
+  }
+}

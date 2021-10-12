@@ -1,0 +1,31 @@
+.get__started {
+    width: 100%;
+    height: 399px;
+    text-align: center;
+    padding-top: 80px;
+    background-color: var(--cl-logo);
+    color: var(--bg-cl-logo);
+    line-height: 350%;
+}
+
+.btn_action_getstarted {
+    width: 212px;
+    margin-top: 25px;
+    border: 1px solid var(--border-color);
+    background-color: var(--cl-logo);
+    padding: 16px 30px;
+    border-radius: 50px;
+    color: var(--cl-banner);
+    cursor: pointer;
+}
+
+.fa-chevron-right {
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 375px) {
+    .get__started {
+        height: fit-content;
+        padding:30px 0;
+    }
+}
